@@ -27,10 +27,10 @@ window.onload = function() {
     let aleatorio4 = Math.floor(Math.random() * when.length);
     let array4 = when[aleatorio4];
 
-    let concatenacionarray = array1 + " " + array2 + " " + array3 + " " + array4;
+    let concatenacionArray = array1 + " " + array2 + " " + array3 + " " + array4;
 
-    return concatenacionarray;
+    return concatenacionArray;
   }
-  let totalconcatenacion = onLoad(who, action, what, when);
-  document.getElementById("excuse").innerHTML = totalconcatenacion;
+  let totalConcatenacion = onLoad(who, action, what, when);
+  document.getElementById("excuse").innerHTML = totalConcatenacion;
 };
